@@ -1,6 +1,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     margin: 0;
+    font-size: 20px;
 }
 h1{
     font-size: 30px;
@@ -19,12 +20,11 @@ h1{
     float: right;
 }
 section{
-    height:560px;
+    height:530px;
 }
 .container{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    border:1px solid yellowgreen;
 }
 .button,.button1{
     text-decoration: none;
@@ -49,18 +49,43 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
-.first-second img{
-    width: 100%;
-}
 .container1{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    border: 1px solid royalblue;
 }
 .first-second img{
-    width: 100%;
+    width: 90%;
 }
 .highlight{
     color: orange;
+}
+.container2{
+    background-image:url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    height:80%;
+}
+#ex1{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg,lightsalmon,tomato);
+ border-image-slice: 1;
+ background-color: #fff;
+}
+#ex2{
+border-left:7px solid;
+border-image: linear-gradient(90deg,rgb(250, 198, 28),yellow) ;
+border-image-slice: 1;
+}
+.foot{
+    background-color: grey;
+    color: #fff;
+    height: 50px;
+}
+.foot p{
+    text-align: center;
+    font-size: 20px;
 }
