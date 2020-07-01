@@ -1,0 +1,66 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+}
+.header{
+    background-color: saddlebrown;
+    height:100px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.icon{
+    border-left: 1px solid cornsilk;
+    width: 50%;
+    float: right;
+}
+section{
+    height:560px;
+}
+.container{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    border:1px solid yellowgreen;
+}
+.button,.button1{
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(yellow,tomato);
+    margin-top: 5px;
+}
+.button1{
+    padding: 10px 35px;
+}
+.button{
+    padding: 10px 20px;
+}
+.first-second{
+    width: 40%;
+    float: left;
+    border: 1px solid ridge;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first-second img{
+    width: 100%;
+}
+.container1{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid royalblue;
+}
+.first-second img{
+    width: 100%;
+}
+.highlight{
+    color: orange;
+}
